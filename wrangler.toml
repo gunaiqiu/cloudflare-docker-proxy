@@ -12,7 +12,7 @@ CUSTOM_DOMAIN = "ywboy.top"
 
 [env.dev.vars]
 MODE = "debug"
-TARGET_UPSTREAM = "https://index.docker.io"
+TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
 name = "cloudflare-docker-proxy"
@@ -28,7 +28,7 @@ name = "cloudflare-docker-proxy"
 
 [env.production.vars]
 MODE = "production"
-TARGET_UPSTREAM = "https://index.docker.io"
+TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
