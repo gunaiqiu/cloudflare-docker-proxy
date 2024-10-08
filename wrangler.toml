@@ -28,7 +28,7 @@ name = "cloudflare-docker-proxy"
 
 [env.production.vars]
 MODE = "production"
-TARGET_UPSTREAM = ""
+TARGET_UPSTREAM = "https://index.docker.io"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
